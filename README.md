@@ -1,4 +1,18 @@
 # ToDoList
+
+ToDoListApp, kullanıcıların yapılacaklar listelerini (to-do list) yönetmelerine olanak tanır. Kullanıcılar hesaplarını yönetebilir, kategoriler oluşturabilir ve görevler ekleyebilir, güncelleyebilir ve silebilirler. Uygulama, JWT tabanlı kimlik doğrulama kullanarak güvenliği sağlar.
+
+## Özellikler
+
+- Kullanıcı kaydı ve girişi
+- Kullanıcı adı, şifre ve e-posta güncelleme
+- Hesap silme
+- Kategori oluşturma, güncelleme ve silme
+- Görev (todo) ekleme, güncelleme ve silme
+- Görevlerin tamamlanma durumlarını güncelleme
+
+## Ekran Görüntüleri
+
 ## Postman'de API'yi Test Etmek İçin
 Projemizin API'lerini Postman ile kolayca test edebilirsiniz. Aşağıdaki butona tıklayarak Postman koleksiyonunuza ekleyebilirsiniz.
 
@@ -9,3 +23,8 @@ Projemizin API'lerini Postman ile kolayca test edebilirsiniz. Aşağıdaki buton
 API dokümantasyonuna erişmek için aşağıdaki butona tıklayabilirsiniz.
 
 [![Dokümantasyon](https://img.shields.io/badge/API%20Docs-Open-green)](https://ahmettarikdemirci.io/todolist/docs/index.html)
+
+## Katkıda Bulunma
+Katkıda bulunmak isterseniz, lütfen bir pull request gönderin. Her türlü katkı için teşekkür ederiz!
+
+Herhangi bir soru ya da geri bildirim için iletişime geçmekten çekinmeyin: [Email İçin tıklayınız](mailto:ahmettarikdemirci@gmail.com)
