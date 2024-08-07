@@ -13,12 +13,12 @@ ToDoListApp, kullanıcıların yapılacaklar listelerini (to-do list) yönetmele
 
 ### Ekran Görüntüleri 
 
-<div style="overflow-x: auto; white-space: nowrap;">
-  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/1.png" alt="Giriş Ekranı" style="width: 30%; display: inline-block; margin-right: 10px;">
-  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/2.png" alt="Kayıt Ekranı" style="width: 30%; display: inline-block; margin-right: 10px;">
-  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/3.png" alt="Ana Ekran" style="width: 30%; display: inline-block; margin-right: 10px;">
-  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/4.png" alt="Kategori Yönetimi" style="width: 30%; display: inline-block; margin-right: 10px;">
-  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/5.png" alt="Görev Yönetimi" style="width: 30%; display: inline-block;">
+<div style="display: flex; overflow-x: auto;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/1.png" alt="Giriş Ekranı" style="height: 400px; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/2.png" alt="Kayıt Ekranı" style="height: 400px; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/3.png" alt="Ana Ekran" style="height: 400px; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/4.png" alt="Kategori Yönetimi" style="height: 400px; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/5.png" alt="Görev Yönetimi" style="height: 400px; margin-right: 10px;">
 </div>
 
 ## Postman'de API'yi Test Etmek İçin
