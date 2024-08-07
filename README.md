@@ -11,7 +11,15 @@ ToDoListApp, kullanıcıların yapılacaklar listelerini (to-do list) yönetmele
 - Görev (todo) ekleme, güncelleme ve silme
 - Görevlerin tamamlanma durumlarını güncelleme
 
-## Ekran Görüntüleri
+### Ekran Görüntüleri 
+
+<div style="overflow-x: auto; white-space: nowrap;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/1.png" alt="Giriş Ekranı" style="width: 30%; display: inline-block; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/2.png" alt="Kayıt Ekranı" style="width: 30%; display: inline-block; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/3.png" alt="Ana Ekran" style="width: 30%; display: inline-block; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/4.png" alt="Kategori Yönetimi" style="width: 30%; display: inline-block; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/5.png" alt="Görev Yönetimi" style="width: 30%; display: inline-block;">
+</div>
 
 ## Postman'de API'yi Test Etmek İçin
 Projemizin API'lerini Postman ile kolayca test edebilirsiniz. Aşağıdaki butona tıklayarak Postman koleksiyonunuza ekleyebilirsiniz.
