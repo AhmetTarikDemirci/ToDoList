@@ -96,7 +96,7 @@ API dökümantasyonu için [Postman Dokümantasyonu](./TodoList.md) dosyasına b
 
 Proje dokümantasyonuna erişmek için aşağıdaki butona tıklayabilirsiniz.
 
-[![Dokümantasyon](https://img.shields.io/badge/API%20Docs-Open-green)](https://ahmettarikdemirci.io/todolist/docs/index.html)
+[![Dokümantasyon](https://img.shields.io/badge/Project%20Docs-Open-green)](https://ahmettarikdemirci.io/todolist/docs/index.html)
 
 ## Katkıda Bulunma
 Katkıda bulunmak isterseniz, lütfen bir pull request gönderin. Her türlü katkı için teşekkür ederiz!
