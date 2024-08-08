@@ -16,6 +16,17 @@ ToDoListApp, kullanıcıların yapılacaklar listelerini (to-do list) yönetmele
 - Görev (todo) ekleme, güncelleme ve silme
 - Görevlerin tamamlanma durumlarını güncelleme
 
+## Gereksinimler
+	•	iOS 17.0+
+ 
+## Proje Kararları ve Yapısı
+
+•	Alamofire: Ağ isteklerini yönetmek için kullanıldı. RESTful API ile iletişim kurmak için ideal.
+•	JWT: JSON Web Token kullanarak kullanıcı kimlik doğrulaması sağlandı.
+•	iOS 17.0+: Swift dilinin en son özelliklerini ve performans iyileştirmelerini kullanmak için gerekli.
+•	Backend: PHP ile yazıldı ve MySQL veritabanı kullanıldı.
+•	Sunucu: Hostinger üzerinde barındırılıyor. phpMyAdmin ile veritabanı yönetimi yapılıyor.
+ 
 ### Ekran Görüntüleri 
 
 <div style="display: flex; overflow-x: auto;">
@@ -35,6 +46,45 @@ https://github.com/user-attachments/assets/3c8e989a-69f5-46ef-b0eb-a4056af4ecc8
 
 </div>
 
+## Backend
+1.	Sunucu Kurulumu:
+	•	Projeyi barındırmak için Hostinger üzerinde bir sunucu satın aldım.
+	•	Sunucuda PHP 7.4+ ve MySQL 5.7+ kurulu olmalıdır.
+2.	Veritabanı Kurulumu:
+	•	MySQL veritabanı oluşturun ve aşağıdaki tabloları phpMyAdmin kullanarak oluşturun:
+```
+ CREATE TABLE users (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) NOT NULL,
+    password VARCHAR(255) NOT NULL,
+    date_of_registration TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE categories (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    user_id INT NOT NULL,
+    category_name VARCHAR(255) NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+CREATE TABLE todos (
+    id VARCHAR(36) PRIMARY KEY,
+    user_id INT NOT NULL,
+    title VARCHAR(255) NOT NULL,
+    due_date TIMESTAMP NOT NULL,
+    created_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    is_done BOOLEAN NOT NULL,
+    category_id INT NOT NULL,
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (category_id) REFERENCES categories(id)
+);
+```
+3.	PHP Dosyalarını Sunucuya Yükleyin:
+	•	Projenin php klasöründe bulunan dosyaları sunucuya yükleyin.
+4.	API URL’lerini Ayarlayın:
+	•	iOS projesinde API URL’lerini kendi sunucu URL’inize göre ayarlayın.
+
 ## Postman'de API'yi Test Etmek İçin
 Projemizin API'lerini Postman ile kolayca test edebilirsiniz. Aşağıdaki butona tıklayarak Postman koleksiyonunuza ekleyebilirsiniz.
 
@@ -44,7 +94,7 @@ API dökümantasyonu için [Postman Dokümantasyonu](./TodoList.md) dosyasına b
 
 ## Dokümantasyon
 
-API dokümantasyonuna erişmek için aşağıdaki butona tıklayabilirsiniz.
+Proje dokümantasyonuna erişmek için aşağıdaki butona tıklayabilirsiniz.
 
 [![Dokümantasyon](https://img.shields.io/badge/API%20Docs-Open-green)](https://ahmettarikdemirci.io/todolist/docs/index.html)
 
