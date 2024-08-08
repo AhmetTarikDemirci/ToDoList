@@ -17,7 +17,7 @@ ToDoListApp, kullanıcıların yapılacaklar listelerini (to-do list) yönetmele
 - Görevlerin tamamlanma durumlarını güncelleme
 
 ## Gereksinimler
-	•	iOS 17.0+
+• iOS 17.0+
  
 ## Proje Kararları ve Yapısı
 
@@ -102,3 +102,21 @@ Proje dokümantasyonuna erişmek için aşağıdaki butona tıklayabilirsiniz.
 Katkıda bulunmak isterseniz, lütfen bir pull request gönderin. Her türlü katkı için teşekkür ederiz!
 
 Herhangi bir soru ya da geri bildirim için iletişime geçmekten çekinmeyin: [Email İçin tıklayınız](mailto:ahmettarikdemirci@gmail.com)
+
+<h3 align="left">Benimle iletişime geçin:</h3>
+<p align="center">
+<a href="https://linkedin.com/in/ahmet-tar%c4%b1k-demirci" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ahmet-tar%c4%b1k-demirci" height="30" width="40" /></a>
+<a href="https://instagram.com/ahmettarikdemirci" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="ahmettarikdemirci" height="30" width="40" /></a>
+<a href="https://www.youtube.com/@user-tm8ri2tk9c" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@user-tm8ri2tk9c" height="30" width="40" /></a>
+</p>
+
+<br/>  
+
+<div align="center">
+            <a href="https://www.buymeacoffee.com/ahmettarikdemirci" target="_blank" style="display: inline-block;">
+                <img
+                    src="https://img.shields.io/badge/Donate-Buy%20Me%20A%20Coffee-orange.svg?style=flat-square&logo=buymeacoffee" 
+                    align="center"
+                />
+            </a></div>
+<br />
