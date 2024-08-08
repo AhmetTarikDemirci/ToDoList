@@ -46,12 +46,12 @@ struct SettingsView: View {
         }
         .alert(isPresented: $viewModel.showAlert) {
                     Alert(
-                        title: Text("Hesabı Silmek İstediğinizden Emin Misiniz?"),
-                        message: Text("Bu işlem geri alınamaz."),
-                        primaryButton: .destructive(Text("Evet")) {
+                        title: Text("Are You Sure You Want to Delete Account?"),
+                        message: Text("This action cannot be undone."),
+                        primaryButton: .destructive(Text("Yes")) {
                             viewModel.deleteAccount(mainViewModel: mainViewModel)
                         },
-                        secondaryButton: .cancel(Text("Hayır"))
+                        secondaryButton: .cancel(Text("No"))
                     )
                 }
        

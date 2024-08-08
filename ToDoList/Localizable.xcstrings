@@ -37,17 +37,6 @@
         }
       }
     },
-    "Add New" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Yeni ekle"
-          }
-        }
-      }
-    },
     "Add Todo" : {
       "localizations" : {
         "tr" : {
@@ -79,8 +68,15 @@
         }
       }
     },
-    "Bu işlem geri alınamaz." : {
-
+    "Are You Sure You Want to Delete Account?" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hesabı Silmek İstediğinizden Emin misiniz?"
+          }
+        }
+      }
     },
     "Category" : {
       "localizations" : {
@@ -323,37 +319,12 @@
         }
       }
     },
-    "English" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "İngilizce"
-          }
-        }
-      }
-    },
     "Error" : {
       "localizations" : {
         "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hata"
-          }
-        }
-      }
-    },
-    "Evet" : {
-
-    },
-    "Full Name" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Adınız"
           }
         }
       }
@@ -367,12 +338,6 @@
           }
         }
       }
-    },
-    "Hayır" : {
-
-    },
-    "Hesabı Silmek İstediğinizden Emin Misiniz?" : {
-
     },
     "Language" : {
       "extractionState" : "stale",
@@ -436,7 +401,14 @@
       }
     },
     "Mission completed successfully" : {
-
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görev başarıyla tamamlandı"
+          }
+        }
+      }
     },
     "New around here?" : {
       "localizations" : {
@@ -474,6 +446,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeni kullanıcı adı"
+          }
+        }
+      }
+    },
+    "No" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hayır"
           }
         }
       }
@@ -689,7 +671,24 @@
       }
     },
     "Task marked as not completed" : {
-
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görev tamamlanmadı olarak işaretlendi"
+          }
+        }
+      }
+    },
+    "This action cannot be undone." : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu eylem geri alınamaz."
+          }
+        }
+      }
     },
     "To Do List" : {
       "localizations" : {
@@ -729,17 +728,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeniden Dene"
-          }
-        }
-      }
-    },
-    "Turkish" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Türkçe"
           }
         }
       }
@@ -820,6 +808,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Görevleriniz olduğunda bu ekranda görünecekler."
+          }
+        }
+      }
+    },
+    "Yes" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Evet"
           }
         }
       }

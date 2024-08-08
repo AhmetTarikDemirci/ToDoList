@@ -189,7 +189,10 @@ class ToDoListViewViewModel: BaseViewModel {
         ApiService.shared.request(request, type: ApiResponse.self) { result, statusCode in
             switch result {
             case .success:
-                print("Todo updated successfully")
+                if let categoryIndex = self.categories.firstIndex(where: { $0.id == todoItem.categoryId }),
+                   let todoIndex = self.categories[categoryIndex].todos.firstIndex(where: { $0.id == todoItem.id }) {
+                    self.categories[categoryIndex].todos[todoIndex] = todoItem
+                }
                 self.buttonState = false
             case .failure(let error):
                 print("Error: \(error)")
