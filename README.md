@@ -27,6 +27,14 @@ ToDoListApp, kullanıcıların yapılacaklar listelerini (to-do list) yönetmele
  
 </div>
 
+## Kullanım Videosu
+
+<div align="center">
+
+https://github.com/user-attachments/assets/3c8e989a-69f5-46ef-b0eb-a4056af4ecc8
+
+</div>
+
 ## Postman'de API'yi Test Etmek İçin
 Projemizin API'lerini Postman ile kolayca test edebilirsiniz. Aşağıdaki butona tıklayarak Postman koleksiyonunuza ekleyebilirsiniz.
 
