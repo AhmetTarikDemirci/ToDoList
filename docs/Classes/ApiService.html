@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ApiService Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/ApiService" class="dashAnchor"></a>
+    <a title="ApiService Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ToDoList Docs</a> (90% documented)</p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fahmettarikdemirci.io%2Ftodolist%2Fdocs%2Findex.html"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ToDoList</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        <a href="../API%20Topics.html">API Topics</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        ApiService Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Views.html">Views</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListApp.html">ToDoListApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TabBarView.html">TabBarView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MainView.html">MainView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LoginView.html">LoginView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RegisterView.html">RegisterView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListItemView.html">ToDoListItemView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MenuItemButton.html">MenuItemButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MenuItemView.html">MenuItemView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListView.html">ToDoListView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CompletedTasksView.html">CompletedTasksView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SettingsView.html">SettingsView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ThemeChangeView.html">ThemeChangeView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EditProfileView.html">EditProfileView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ProfileOption.html">ProfileOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EditView.html">EditView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../View%20Components.html">View Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/HeaderView.html">HeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TLButton.html">TLButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CategoryPickerView.html">CategoryPickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TLTextField.html">TLTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToastView.html">ToastView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Toast.html">Toast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToastModifier.html">ToastModifier</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../View%20Models.html">View Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/LoginViewViewModel.html">LoginViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RegisterViewViewModel.html">RegisterViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MainViewViewModel.html">MainViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToDoListViewViewModel.html">ToDoListViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserViewModel.html">UserViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SettingsViewViewModel.html">SettingsViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ThemeChangeViewModel.html">ThemeChangeViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CompletedTasksViewViewModel.html">CompletedTasksViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToDoListItemViewViewModel.html">ToDoListItemViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BaseViewModel.html">BaseViewModel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Models.html">Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Category.html">Category</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Category/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListItem.html">ToDoListItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListItem/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MenuItemType.html">MenuItemType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LoginResponse.html">LoginResponse</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Field.html">Field</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EditType.html">EditType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:8ToDoList11ButtonStateO">ButtonState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ToastStyle.html">ToastStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Theme.html">Theme</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Request%20State.html">Request State</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ErrorView.html">ErrorView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LoadingView.html">LoadingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NoDataView.html">NoDataView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/RequestState.html">RequestState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RequestStateController.html">RequestStateController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../API%20Topics.html">API Topics</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ApiService.html">ApiService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DataRequest.html">DataRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DataResponse.html">DataResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DateFormatter.html">DateFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ApiConstants.html">ApiConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ApiError.html">ApiError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ApiResponse.html">ApiResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../API%20Topics.html#/s:8ToDoList15LoggableServiceP">LoggableService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ApiErrorResponse.html">ApiErrorResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/URLRequestConfigurable.html">URLRequestConfigurable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BodyParameterEncoding.html">BodyParameterEncoding</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Router.html">Router</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/UserRouter.html">UserRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TodoRouter.html">TodoRouter</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Text.html">Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UserDefaults.html">UserDefaults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UserDefaults.html#/s:So14NSUserDefaultsC8ToDoListE4Keys33_579D26AEBD9C0799955D8B8B3328F121LLO">– Keys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Error.html">Error</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Utilities.html">Utilities</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/SwiftUI.html">SwiftUI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SwiftUI/Color.html">– Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SwiftUI/ShapeStyle.html">– ShapeStyle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Global%20Variables.html">Other Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other%20Global%20Variables.html#/resourceBundle">resourceBundle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/DeveloperToolsSupport.html">DeveloperToolsSupport</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DeveloperToolsSupport/ColorResource.html">– ColorResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIKit.UIColor.html">UIKit.UIColor</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>ApiService</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">final</span> <span class="kd">class</span> <span class="kt">ApiService</span></code></pre>
+
+                </div>
+              </div>
+            <p><code>ApiService</code> sınıfı, API isteklerini yönetmek için kullanılan bir singleton servisidir.</p>
+
+<p>Bu sınıf, Alamofire kütüphanesini kullanarak API isteklerini gerçekleştirir ve yanıtları işleyerek ilgili sonuçları döner.
+Singleton yapısı sayesinde tek bir örnek üzerinden tüm istekler yönetilebilir.</p>
+<h3 id='kullanım-örneği' class='heading'>Kullanım Örneği</h3>
+<pre class="highlight swift"><code><span class="kt">ApiService</span><span class="o">.</span><span class="n">shared</span><span class="o">.</span><span class="nf">request</span><span class="p">(</span><span class="n">urlRequest</span><span class="p">,</span> <span class="nv">type</span><span class="p">:</span> <span class="kt">MyModel</span><span class="o">.</span><span class="k">self</span><span class="p">)</span> <span class="p">{</span> <span class="n">result</span><span class="p">,</span> <span class="n">statusCode</span> <span class="k">in</span>
+    <span class="k">switch</span> <span class="n">result</span> <span class="p">{</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nf">success</span><span class="p">(</span><span class="k">let</span> <span class="nv">model</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Başarılı: </span><span class="se">\(</span><span class="n">model</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+    <span class="k">case</span> <span class="o">.</span><span class="nf">failure</span><span class="p">(</span><span class="k">let</span> <span class="nv">error</span><span class="p">):</span>
+        <span class="nf">print</span><span class="p">(</span><span class="s">"Hata: </span><span class="se">\(</span><span class="n">error</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList10ApiServiceC6sharedACvpZ"></a>
+                    <a name="//apple_ref/swift/Variable/shared" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList10ApiServiceC6sharedACvpZ">shared</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p><code>ApiService</code> sınıfının tek örneği.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">static</span> <span class="k">let</span> <span class="nv">shared</span><span class="p">:</span> <span class="kt">ApiService</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList10ApiServiceC9AFSession33_330E921D6A780232248F33C16D156C35LL9Alamofire7SessionCvp"></a>
+                    <a name="//apple_ref/swift/Property/AFSession" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList10ApiServiceC9AFSession33_330E921D6A780232248F33C16D156C35LL9Alamofire7SessionCvp">AFSession</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Alamofire oturumu.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">AFSession</span><span class="p">:</span> <span class="kt">Session</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList10ApiServiceC11dataRequest33_330E921D6A780232248F33C16D156C35LL9Alamofire04DataG0CSgvp"></a>
+                    <a name="//apple_ref/swift/Property/dataRequest" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList10ApiServiceC11dataRequest33_330E921D6A780232248F33C16D156C35LL9Alamofire04DataG0CSgvp">dataRequest</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Mevcut veri isteği.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="k">var</span> <span class="nv">dataRequest</span><span class="p">:</span> <span class="kt">DataRequest</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList10ApiServiceCACyc33_330E921D6A780232248F33C16D156C35Llfc"></a>
+                    <a name="//apple_ref/swift/Method/init()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList10ApiServiceCACyc33_330E921D6A780232248F33C16D156C35Llfc">init()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Sınıfın başlatıcısı, oturum konfigürasyonunu ayarlar.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="nf">init</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList10ApiServiceC7request_4type10completiony9Alamofire21URLRequestConvertible_p_xmys6ResultOyxs5Error_pG_SiSgtctSeRzlF"></a>
+                    <a name="//apple_ref/swift/Method/request(_:type:completion:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList10ApiServiceC7request_4type10completiony9Alamofire21URLRequestConvertible_p_xmys6ResultOyxs5Error_pG_SiSgtctSeRzlF">request(_:<wbr>type:<wbr>completion:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Belirtilen URL isteğini gerçekleştirir ve sonucu döner.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="n">request</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">:</span> <span class="kt">Decodable</span><span class="o">&gt;</span><span class="p">(</span>
+    <span class="n">_</span> <span class="nv">urlReq</span><span class="p">:</span> <span class="kt">URLRequestConvertible</span><span class="p">,</span>
+    <span class="nv">type</span><span class="p">:</span> <span class="kt">T</span><span class="o">.</span><span class="k">Type</span><span class="p">,</span>
+    <span class="nv">completion</span><span class="p">:</span> <span class="kd">@escaping</span> <span class="p">(</span><span class="kt">Result</span><span class="o">&lt;</span><span class="kt">T</span><span class="p">,</span> <span class="kt">Error</span><span class="o">&gt;</span><span class="p">,</span> <span class="kt">Int</span><span class="p">?)</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>urlReq</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>URL isteği.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>type</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Beklenen yanıt türü.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>completion</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>İstek tamamlandığında çağrılacak tamamlanma bloğu.
+        Tamamlanma bloğu bir <code>Result</code> türü ve isteğin durum kodunu döner.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2024 <a class="link" href="https://ahmettarikdemirci.io/" target="_blank" rel="external noopener">Ahmet Tarık Demirci</a>. All rights reserved. (Last updated: 2024-08-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

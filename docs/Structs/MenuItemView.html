@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>MenuItemView Structure Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Struct/MenuItemView" class="dashAnchor"></a>
+    <a title="MenuItemView Structure Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ToDoList Docs</a> (90% documented)</p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fahmettarikdemirci.io%2Ftodolist%2Fdocs%2Findex.html"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ToDoList</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        <a href="../Views.html">Views</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        MenuItemView Structure Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Views.html">Views</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListApp.html">ToDoListApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TabBarView.html">TabBarView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MainView.html">MainView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LoginView.html">LoginView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RegisterView.html">RegisterView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListItemView.html">ToDoListItemView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MenuItemButton.html">MenuItemButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MenuItemView.html">MenuItemView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListView.html">ToDoListView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CompletedTasksView.html">CompletedTasksView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SettingsView.html">SettingsView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ThemeChangeView.html">ThemeChangeView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EditProfileView.html">EditProfileView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ProfileOption.html">ProfileOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EditView.html">EditView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../View%20Components.html">View Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/HeaderView.html">HeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TLButton.html">TLButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CategoryPickerView.html">CategoryPickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TLTextField.html">TLTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToastView.html">ToastView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Toast.html">Toast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToastModifier.html">ToastModifier</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../View%20Models.html">View Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/LoginViewViewModel.html">LoginViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RegisterViewViewModel.html">RegisterViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MainViewViewModel.html">MainViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToDoListViewViewModel.html">ToDoListViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserViewModel.html">UserViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SettingsViewViewModel.html">SettingsViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ThemeChangeViewModel.html">ThemeChangeViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CompletedTasksViewViewModel.html">CompletedTasksViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToDoListItemViewViewModel.html">ToDoListItemViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BaseViewModel.html">BaseViewModel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Models.html">Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Category.html">Category</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Category/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListItem.html">ToDoListItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListItem/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MenuItemType.html">MenuItemType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LoginResponse.html">LoginResponse</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Field.html">Field</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EditType.html">EditType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:8ToDoList11ButtonStateO">ButtonState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ToastStyle.html">ToastStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Theme.html">Theme</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Request%20State.html">Request State</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ErrorView.html">ErrorView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LoadingView.html">LoadingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NoDataView.html">NoDataView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/RequestState.html">RequestState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RequestStateController.html">RequestStateController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../API%20Topics.html">API Topics</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ApiService.html">ApiService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DataRequest.html">DataRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DataResponse.html">DataResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DateFormatter.html">DateFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ApiConstants.html">ApiConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ApiError.html">ApiError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ApiResponse.html">ApiResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../API%20Topics.html#/s:8ToDoList15LoggableServiceP">LoggableService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ApiErrorResponse.html">ApiErrorResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/URLRequestConfigurable.html">URLRequestConfigurable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BodyParameterEncoding.html">BodyParameterEncoding</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Router.html">Router</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/UserRouter.html">UserRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TodoRouter.html">TodoRouter</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Text.html">Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UserDefaults.html">UserDefaults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UserDefaults.html#/s:So14NSUserDefaultsC8ToDoListE4Keys33_579D26AEBD9C0799955D8B8B3328F121LLO">– Keys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Error.html">Error</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Utilities.html">Utilities</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/SwiftUI.html">SwiftUI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SwiftUI/Color.html">– Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SwiftUI/ShapeStyle.html">– ShapeStyle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Global%20Variables.html">Other Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other%20Global%20Variables.html#/resourceBundle">resourceBundle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/DeveloperToolsSupport.html">DeveloperToolsSupport</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DeveloperToolsSupport/ColorResource.html">– ColorResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIKit.UIColor.html">UIKit.UIColor</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>MenuItemView</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">struct</span> <span class="kt">MenuItemView</span> <span class="p">:</span> <span class="kt">View</span></code></pre>
+
+                </div>
+              </div>
+            <p><code>MenuItemView</code> yapısı, yapılacaklar listesi veya kategori ekleme, düzenleme ve silme işlemleri için kullanılan bir görünümdür.</p>
+
+<p>Bu görünüm, <code><a href="../Classes/ToDoListViewViewModel.html">ToDoListViewViewModel</a></code> ve <code><a href="../Enums/MenuItemType.html">MenuItemType</a></code> kullanarak uygun form bileşenlerini görüntüler.</p>
+<h3 id='özellikler' class='heading'>Özellikler</h3>
+
+<ul>
+<li><code>viewModel</code>: Yapılacaklar listesi verilerini yöneten <code><a href="../Classes/ToDoListViewViewModel.html">ToDoListViewViewModel</a></code>.</li>
+<li><code>newItemPresented</code>: Yeni bir öğenin sunulup sunulmadığını belirten binding değişkeni.</li>
+<li><code>type</code>: Menü öğesi türünü belirten <code><a href="../Enums/MenuItemType.html">MenuItemType</a></code>.</li>
+</ul>
+<h3 id='görünüm-yapısı' class='heading'>Görünüm Yapısı</h3>
+
+<ul>
+<li><code>VStack</code>: Üstte bir başlık ve form bileşenlerini içerir.
+
+<ul>
+<li><code>Text(type.title)</code>: Menü öğesi türüne göre başlığı gösterir.</li>
+<li><code>Form</code>: Form bileşenlerini içerir.</li>
+<li><code>categoryPickerView</code>: Kategori seçici bileşen.</li>
+<li><code>textFieldView</code>: Metin alanı bileşeni.</li>
+<li><code>datePickerView</code>: Tarih seçici bileşeni.</li>
+<li><code><a href="../Structs/MenuItemButton.html">MenuItemButton</a></code>: Menü öğesi türüne göre ilgili butonu gösterir.</li>
+</ul></li>
+</ul>
+<h3 id='fonksiyonlar' class='heading'>Fonksiyonlar</h3>
+
+<ul>
+<li><code>binding(for:type:)</code>: Menü öğesi türüne göre uygun binding değerini döndürür.</li>
+</ul>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList12MenuItemViewV9viewModelAA0abcffH0Cvp"></a>
+                    <a name="//apple_ref/swift/Property/viewModel" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList12MenuItemViewV9viewModelAA0abcffH0Cvp">viewModel</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Yapılacaklar listesi verilerini yöneten ViewModel.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@ObservedObject</span>
+<span class="k">var</span> <span class="nv">viewModel</span><span class="p">:</span> <span class="kt"><a href="../Classes/ToDoListViewViewModel.html">ToDoListViewViewModel</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList12MenuItemViewV03newE9PresentedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/newItemPresented" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList12MenuItemViewV03newE9PresentedSbvp">newItemPresented</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Yeni bir öğenin sunulup sunulmadığını belirten binding değişkeni.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Binding</span>
+<span class="k">var</span> <span class="nv">newItemPresented</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">nonmutating</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList12MenuItemViewV4typeAA0dE4TypeOvp"></a>
+                    <a name="//apple_ref/swift/Property/type" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList12MenuItemViewV4typeAA0dE4TypeOvp">type</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Menü öğesi türünü belirten değişken.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/MenuItemType.html">MenuItemType</a></span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:7SwiftUI4ViewP4body4BodyQzvp"></a>
+                    <a name="//apple_ref/swift/Property/body" class="dashAnchor"></a>
+                    <a class="token" href="#/s:7SwiftUI4ViewP4body4BodyQzvp">body</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">body</span><span class="p">:</span> <span class="kd">some</span> <span class="kt">View</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList12MenuItemViewV014categoryPickerF033_63679592898F4A859F28B90BC74B272BLLQrvp"></a>
+                    <a name="//apple_ref/swift/Property/categoryPickerView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList12MenuItemViewV014categoryPickerF033_63679592898F4A859F28B90BC74B272BLLQrvp">categoryPickerView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Menü öğesi türüne göre kategori seçici bileşeni gösterir.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@ViewBuilder</span>
+<span class="kd">private</span> <span class="k">var</span> <span class="nv">categoryPickerView</span><span class="p">:</span> <span class="kd">some</span> <span class="kt">View</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList12MenuItemViewV09textFieldF033_63679592898F4A859F28B90BC74B272BLLQrvp"></a>
+                    <a name="//apple_ref/swift/Property/textFieldView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList12MenuItemViewV09textFieldF033_63679592898F4A859F28B90BC74B272BLLQrvp">textFieldView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Menü öğesi türüne göre metin alanı bileşenini gösterir.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@ViewBuilder</span>
+<span class="kd">private</span> <span class="k">var</span> <span class="nv">textFieldView</span><span class="p">:</span> <span class="kd">some</span> <span class="kt">View</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList12MenuItemViewV010datePickerF033_63679592898F4A859F28B90BC74B272BLLQrvp"></a>
+                    <a name="//apple_ref/swift/Property/datePickerView" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList12MenuItemViewV010datePickerF033_63679592898F4A859F28B90BC74B272BLLQrvp">datePickerView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Menü öğesi türüne göre tarih seçici bileşenini gösterir.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@ViewBuilder</span>
+<span class="kd">private</span> <span class="k">var</span> <span class="nv">datePickerView</span><span class="p">:</span> <span class="kd">some</span> <span class="kt">View</span> <span class="p">{</span> <span class="k">get</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList12MenuItemViewV7binding33_63679592898F4A859F28B90BC74B272BLL3for9viewModel7SwiftUI7BindingVySSGAA0dE4TypeO_AA0abcffP0CtF"></a>
+                    <a name="//apple_ref/swift/Method/binding(for:viewModel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList12MenuItemViewV7binding33_63679592898F4A859F28B90BC74B272BLL3for9viewModel7SwiftUI7BindingVySSGAA0dE4TypeO_AA0abcffP0CtF">binding(for:<wbr>viewModel:<wbr>)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Menü öğesi türüne göre uygun binding değerini döndürür.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">private</span> <span class="kd">func</span> <span class="nf">binding</span><span class="p">(</span><span class="k">for</span> <span class="nv">type</span><span class="p">:</span> <span class="kt"><a href="../Enums/MenuItemType.html">MenuItemType</a></span><span class="p">,</span> <span class="nv">viewModel</span><span class="p">:</span> <span class="kt"><a href="../Classes/ToDoListViewViewModel.html">ToDoListViewViewModel</a></span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Binding</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>type</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Menü öğesi türü.</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>viewModel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>Yapılacaklar listesi verilerini yöneten ViewModel.</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>Uygun binding değeri.</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2024 <a class="link" href="https://ahmettarikdemirci.io/" target="_blank" rel="external noopener">Ahmet Tarık Demirci</a>. All rights reserved. (Last updated: 2024-08-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

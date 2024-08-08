@@ -1,0 +1,124 @@
+# jazzy.yaml
+module: ToDoList
+output: docs
+author: Ahmet Tarık Demirci
+author_url: https://ahmettarikdemirci.io/
+dash_url: https://ahmettarikdemirci.io/todolist/docs/index.html
+theme: apple
+skip_undocumented: true
+readme: README.md
+min_acl: private
+exclude:
+  - GeneratedAssetSymbols.swift
+  - Info.plist
+  - Preview Content
+  - Localizable.xcstrings
+  - resourceBundle
+  - DeveloperToolsSupport
+  - ColorResource
+custom_categories:
+
+  - name: Views
+    children:
+      - ToDoListApp
+      - TabBarView
+      - MainView
+      - LoginView
+      - RegisterView
+      - ToDoListItemView
+      - MenuItemButton
+      - MenuItemView
+      - ToDoListView
+      - CompletedTasksView
+      - SettingsView
+      - ThemeChangeView
+      - EditProfileView
+      - ProfileOption
+      - EditView
+      
+  - name: View Components
+    children:
+      - HeaderView
+      - TLButton
+      - CategoryPickerView
+      - TLTextField
+      - ToastView
+      - Toast
+      - ToastModifier
+      
+  - name: View Models
+    children:
+      - LoginViewViewModel
+      - RegisterViewViewModel
+      - MainViewViewModel
+      - ToDoListViewViewModel
+      - UserViewModel
+      - SettingsViewViewModel
+      - ThemeChangeViewModel
+      - CompletedTasksViewViewModel
+      - ToDoListItemViewViewModel
+      - BaseViewModel
+      
+  - name: Models
+    children:
+      - Category
+      - ToDoListItem
+      - MenuItemType
+      - LoginResponseModel
+      - User
+      - LoginResponse
+      
+  - name: Enums
+    children:
+      - Field
+      - EditType
+      - ButtonState
+      - ToastStyle
+      - Theme
+
+  - name: Request State
+    children:
+      - ErrorView
+      - LoadingView
+      - NoDataView
+      - RequestState
+      - RequestStateController
+      
+  - name: API Topics
+    children:
+      - ApiService
+      - DebuggingTechniques
+      - DataRequest
+      - DataResponse
+      - DateFormatter
+      - ApiConstants
+      - ApiError
+      - ApiResponse
+      - ApiService
+      - LoggableService
+      - DateFormatter
+      - ApiErrorResponse
+      - URLRequestConfigurable
+      - BodyParameterEncoding
+      
+  - name: Router
+    children:
+      - UserRouter
+      - TodoRouter
+      
+  - name: Extensions
+    children:
+      - Text
+      - UserDefaults
+      - Error
+      
+  - name: Utilities
+    children:
+      - SwiftUI
+
+  
+build_tool_arguments:
+  - -scheme
+  - ToDoList
+  - -project
+  - ToDoList.xcodeproj

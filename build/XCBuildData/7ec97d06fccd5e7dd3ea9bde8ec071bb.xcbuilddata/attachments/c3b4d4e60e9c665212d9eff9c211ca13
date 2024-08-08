@@ -1,0 +1,300 @@
+{
+  "" : {
+    "const-values" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoList-master.swiftconstvalues",
+    "dependencies" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoList-master.d",
+    "diagnostics" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoList-master.dia",
+    "emit-module-dependencies" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoList-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoList-master-emit-module.dia",
+    "swift-dependencies" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoList-master.swiftdeps"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/GeneratedAssetSymbols.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/ApiConstants.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ApiConstants.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ApiConstants.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ApiConstants.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/ApiError.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ApiError.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ApiError.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ApiError.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/ApiResponse.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ApiResponse.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ApiResponse.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ApiResponse.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/ApiService.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ApiService.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ApiService.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ApiService.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/BodyParameterEncoding.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/BodyParameterEncoding.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/BodyParameterEncoding.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/BodyParameterEncoding.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/DateFormater.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/DateFormater.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/DateFormater.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/DateFormater.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/ErrorConversions.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ErrorConversions.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ErrorConversions.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ErrorConversions.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/LogabbleService.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LogabbleService.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LogabbleService.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LogabbleService.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/URLRequestConfigurable.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/URLRequestConfigurable.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/URLRequestConfigurable.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/URLRequestConfigurable.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/CompletedTasks/View/CompletedTasksView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/CompletedTasksView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/CompletedTasksView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/CompletedTasksView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/CompletedTasks/ViewModel/CompletedTasksViewViewModel.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/CompletedTasksViewViewModel.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/CompletedTasksViewViewModel.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/CompletedTasksViewViewModel.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Component/CategoryPickerView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/CategoryPickerView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/CategoryPickerView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/CategoryPickerView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Component/HeaderView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/HeaderView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/HeaderView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/HeaderView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Component/TLButton.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/TLButton.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/TLButton.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/TLButton.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Component/TLTextField.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/TLTextField.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/TLTextField.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/TLTextField.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/EditProfile/Model/EditType.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/EditType.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/EditType.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/EditType.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/EditProfile/View/EditProfileView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/EditProfileView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/EditProfileView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/EditProfileView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/EditProfile/View/EditView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/EditView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/EditView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/EditView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/EditProfile/ViewModel/UserViewModel.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/UserViewModel.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/UserViewModel.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/UserViewModel.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Login/Model/LoginResposeModel.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LoginResposeModel.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LoginResposeModel.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LoginResposeModel.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Login/View/LoginView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LoginView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LoginView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LoginView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Login/ViewModel/LoginViewViewModel.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LoginViewViewModel.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LoginViewViewModel.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LoginViewViewModel.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Main/View/MainView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MainView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MainView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MainView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Main/ViewModel/MainViewViewModel.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MainViewViewModel.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MainViewViewModel.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MainViewViewModel.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Models/User.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/User.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/User.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/User.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Register/View/RegisterView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/RegisterView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/RegisterView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/RegisterView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Register/ViewModel/RegisterViewViewModel.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/RegisterViewViewModel.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/RegisterViewViewModel.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/RegisterViewViewModel.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/ToDoRouter.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoRouter.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoRouter.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoRouter.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/UserRouter.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/UserRouter.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/UserRouter.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/UserRouter.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Settings/Model/Theme.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/Theme.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/Theme.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/Theme.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Settings/View/SettingsView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/SettingsView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Settings/View/ThemeChangeView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ThemeChangeView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ThemeChangeView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ThemeChangeView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Settings/ViewModel/SettingsViewViewModel.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/SettingsViewViewModel.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/SettingsViewViewModel.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/SettingsViewViewModel.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Settings/ViewModel/ThemeChangeViewModel.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ThemeChangeViewModel.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ThemeChangeViewModel.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ThemeChangeViewModel.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToastMessage/Model/ToastStyle.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToastStyle.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToastStyle.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToastStyle.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToastMessage/View/ToastView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToastView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToastView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToastView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToastMessage/ViewModel/Toast.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/Toast.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/Toast.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/Toast.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToastMessage/ViewModel/ToastModifier.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToastModifier.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToastModifier.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToastModifier.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToDo/Model/Category.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/Category.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/Category.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/Category.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToDo/Model/MenuItemType.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MenuItemType.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MenuItemType.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MenuItemType.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToDo/Model/ToDoListItem.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListItem.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListItem.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListItem.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToDo/View/MenuItemButton.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MenuItemButton.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MenuItemButton.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MenuItemButton.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToDo/View/MenuItemView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MenuItemView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MenuItemView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/MenuItemView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToDo/View/ToDoListItemView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListItemView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListItemView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListItemView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToDo/View/ToDoListView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToDo/ViewModel/ToDoListItemViewViewModel.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListItemViewViewModel.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListItemViewViewModel.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListItemViewViewModel.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToDo/ViewModel/ToDoListViewViewModel.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListViewViewModel.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListViewViewModel.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListViewViewModel.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ToDoListApp.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListApp.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListApp.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ToDoListApp.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Utils/Enums/Field.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/Field.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/Field.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/Field.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Utils/Extensions/TextExtensions.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/TextExtensions.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/TextExtensions.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/TextExtensions.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Utils/Extensions/UserDefaultsExtensions.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/UserDefaultsExtensions.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/UserDefaultsExtensions.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/UserDefaultsExtensions.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/View/RequestState/ErrorView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ErrorView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ErrorView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/ErrorView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/View/RequestState/LoadingView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LoadingView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LoadingView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/LoadingView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/View/RequestState/NoDataView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/NoDataView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/NoDataView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/NoDataView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/View/RequestState/RequestState.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/RequestState.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/RequestState.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/RequestState.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/View/TabBarView.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/TabBarView.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/TabBarView.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/TabBarView.o"
+  },
+  "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ViewModels/BaseViewModel.swift" : {
+    "index-unit-output-path" : "/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/BaseViewModel.o",
+    "llvm-bc" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/BaseViewModel.bc",
+    "object" : "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/build/ToDoList.build/Release-iphoneos/ToDoList.build/Objects-normal/arm64/BaseViewModel.o"
+  }
+}

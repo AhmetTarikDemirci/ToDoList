@@ -1,0 +1,355 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/ApiResponse.swift",
+      "line": 17,
+      "symbol": "ApiResponse.message",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/ApiResponse.swift",
+      "line": 19,
+      "symbol": "ApiResponse.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/ApiResponse.swift",
+      "line": 41,
+      "symbol": "ApiErrorResponse.error",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/ApiResponse.swift",
+      "line": 42,
+      "symbol": "ApiErrorResponse.errorDesc",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/ApiResponse.swift",
+      "line": 43,
+      "symbol": "ApiErrorResponse.errorCode",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/ApiResponse.swift",
+      "line": 47,
+      "symbol": "ApiErrorResponse.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/ApiService.swift",
+      "line": 12,
+      "symbol": "JSON",
+      "symbol_kind": "source.lang.swift.decl.typealias",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Api/LogabbleService.swift",
+      "line": 15,
+      "symbol": "LoggableService.debugLog()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Component/TLButton.swift",
+      "line": 15,
+      "symbol": "ButtonState.enabled",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Component/TLButton.swift",
+      "line": 16,
+      "symbol": "ButtonState.disabled",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Login/ViewModel/LoginViewViewModel.swift",
+      "line": 29,
+      "symbol": "LoginViewViewModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Main/ViewModel/MainViewViewModel.swift",
+      "line": 21,
+      "symbol": "MainViewViewModel.shared",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Models/User.swift",
+      "line": 26,
+      "symbol": "User.CodingKeys",
+      "symbol_kind": "source.lang.swift.decl.enum",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Register/ViewModel/RegisterViewViewModel.swift",
+      "line": 40,
+      "symbol": "RegisterViewViewModel.init()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/ToDoRouter.swift",
+      "line": 24,
+      "symbol": "TodoRouter.getTodos",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/ToDoRouter.swift",
+      "line": 25,
+      "symbol": "TodoRouter.getTodosDone",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/ToDoRouter.swift",
+      "line": 26,
+      "symbol": "TodoRouter.addTodo(todoItem:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/ToDoRouter.swift",
+      "line": 27,
+      "symbol": "TodoRouter.editTodo(todoItem:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/ToDoRouter.swift",
+      "line": 28,
+      "symbol": "TodoRouter.deleteTodo(id:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/ToDoRouter.swift",
+      "line": 29,
+      "symbol": "TodoRouter.addCategory(categoryName:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/ToDoRouter.swift",
+      "line": 30,
+      "symbol": "TodoRouter.updateCategory(id:categoryName:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/ToDoRouter.swift",
+      "line": 31,
+      "symbol": "TodoRouter.updateIsDone(id:isDone:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/ToDoRouter.swift",
+      "line": 32,
+      "symbol": "TodoRouter.deleteCategory(id:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/UserRouter.swift",
+      "line": 28,
+      "symbol": "UserRouter.login(email:password:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/UserRouter.swift",
+      "line": 29,
+      "symbol": "UserRouter.register(name:email:password:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/UserRouter.swift",
+      "line": 30,
+      "symbol": "UserRouter.updateUsername(userName:password:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/UserRouter.swift",
+      "line": 31,
+      "symbol": "UserRouter.updateEmail(email:password:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/UserRouter.swift",
+      "line": 32,
+      "symbol": "UserRouter.updatePassword(newPassword:currentPassword:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Router/UserRouter.swift",
+      "line": 33,
+      "symbol": "UserRouter.deleteAccount",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Settings/ViewModel/SettingsViewViewModel.swift",
+      "line": 21,
+      "symbol": "SettingsViewViewModel.showAlert",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Utils/Extensions/UserDefaultsExtensions.swift",
+      "line": 17,
+      "symbol": "UserDefaults.Keys.userId",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Utils/Extensions/UserDefaultsExtensions.swift",
+      "line": 18,
+      "symbol": "UserDefaults.Keys.userName",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Utils/Extensions/UserDefaultsExtensions.swift",
+      "line": 19,
+      "symbol": "UserDefaults.Keys.email",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/Utils/Extensions/UserDefaultsExtensions.swift",
+      "line": 20,
+      "symbol": "UserDefaults.Keys.dateOfRegistration",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/View/RequestState/RequestState.swift",
+      "line": 15,
+      "symbol": "RequestState.nodata",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/View/RequestState/RequestState.swift",
+      "line": 16,
+      "symbol": "RequestState.loading",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/View/RequestState/RequestState.swift",
+      "line": 17,
+      "symbol": "RequestState.success",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/View/RequestState/RequestState.swift",
+      "line": 18,
+      "symbol": "RequestState.error(_:)",
+      "symbol_kind": "source.lang.swift.decl.enumelement",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ViewModels/BaseViewModel.swift",
+      "line": 35,
+      "symbol": "BaseViewModel.toast",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ViewModels/BaseViewModel.swift",
+      "line": 80,
+      "symbol": "BaseViewModel.showSuccessToast(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ViewModels/BaseViewModel.swift",
+      "line": 84,
+      "symbol": "BaseViewModel.showErrorToast(message:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList/ToDoList/ViewModels/BaseViewModel.swift",
+      "line": 88,
+      "symbol": "BaseViewModel.clearToast()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Library/Developer/Xcode/DerivedData/ToDoList-fkrtukigknvmvhdjuzywnnkdnttp/Build/Intermediates.noindex/ToDoList.build/Debug-iphoneos/ToDoList.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 18,
+      "symbol": "ResourceBundleClass",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Library/Developer/Xcode/DerivedData/ToDoList-fkrtukigknvmvhdjuzywnnkdnttp/Build/Intermediates.noindex/ToDoList.build/Debug-iphoneos/ToDoList.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 19,
+      "symbol": "resourceBundle",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Library/Developer/Xcode/DerivedData/ToDoList-fkrtukigknvmvhdjuzywnnkdnttp/Build/Intermediates.noindex/ToDoList.build/Debug-iphoneos/ToDoList.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 333,
+      "symbol": "DeveloperToolsSupport.ColorResource.init(thinnableName:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Library/Developer/Xcode/DerivedData/ToDoList-fkrtukigknvmvhdjuzywnnkdnttp/Build/Intermediates.noindex/ToDoList.build/Debug-iphoneos/ToDoList.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 378,
+      "symbol": "UIKit.UIColor.init(thinnableResource:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Library/Developer/Xcode/DerivedData/ToDoList-fkrtukigknvmvhdjuzywnnkdnttp/Build/Intermediates.noindex/ToDoList.build/Debug-iphoneos/ToDoList.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 397,
+      "symbol": "SwiftUI.Color.init(thinnableResource:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Library/Developer/Xcode/DerivedData/ToDoList-fkrtukigknvmvhdjuzywnnkdnttp/Build/Intermediates.noindex/ToDoList.build/Debug-iphoneos/ToDoList.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 410,
+      "symbol": "SwiftUI.ShapeStyle.init(thinnableResource:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Library/Developer/Xcode/DerivedData/ToDoList-fkrtukigknvmvhdjuzywnnkdnttp/Build/Intermediates.noindex/ToDoList.build/Debug-iphoneos/ToDoList.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 425,
+      "symbol": "DeveloperToolsSupport.ImageResource.init(thinnableName:bundle:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/ahmettarikdemirci/Library/Developer/Xcode/DerivedData/ToDoList-fkrtukigknvmvhdjuzywnnkdnttp/Build/Intermediates.noindex/ToDoList.build/Debug-iphoneos/ToDoList.build/DerivedSources/GeneratedAssetSymbols.swift",
+      "line": 450,
+      "symbol": "UIKit.UIImage.init(thinnableResource:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/ahmettarikdemirci/Desktop/Deneme Projeler/ToDoList"
+}

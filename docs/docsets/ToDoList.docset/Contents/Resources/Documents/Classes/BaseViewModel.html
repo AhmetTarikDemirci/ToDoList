@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BaseViewModel Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+    <script src="../js/lunr.min.js" defer></script>
+    <script src="../js/typeahead.jquery.js" defer></script>
+    <script src="../js/jazzy.search.js" defer></script>
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/BaseViewModel" class="dashAnchor"></a>
+    <a title="BaseViewModel Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html">ToDoList Docs</a> (90% documented)</p>
+        <p class="header-right"><a href="dash-feed://https%3A%2F%2Fahmettarikdemirci.io%2Ftodolist%2Fdocs%2Findex.html"><img src="../img/dash.png" alt="Dash"/>Install in Dash</a></p>
+        <div class="header-right">
+          <form role="search" action="../search.json">
+            <input type="text" placeholder="Search documentation" data-typeahead>
+          </form>
+        </div>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html">ToDoList</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        <a href="../View%20Models.html">View Models</a>
+        <img id="carat" src="../img/carat.png" alt=""/>
+        BaseViewModel Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Views.html">Views</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListApp.html">ToDoListApp</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TabBarView.html">TabBarView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MainView.html">MainView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LoginView.html">LoginView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RegisterView.html">RegisterView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListItemView.html">ToDoListItemView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MenuItemButton.html">MenuItemButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/MenuItemView.html">MenuItemView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListView.html">ToDoListView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CompletedTasksView.html">CompletedTasksView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/SettingsView.html">SettingsView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ThemeChangeView.html">ThemeChangeView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EditProfileView.html">EditProfileView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ProfileOption.html">ProfileOption</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/EditView.html">EditView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../View%20Components.html">View Components</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/HeaderView.html">HeaderView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TLButton.html">TLButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/CategoryPickerView.html">CategoryPickerView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/TLTextField.html">TLTextField</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToastView.html">ToastView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Toast.html">Toast</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToastModifier.html">ToastModifier</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../View%20Models.html">View Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/LoginViewViewModel.html">LoginViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/RegisterViewViewModel.html">RegisterViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/MainViewViewModel.html">MainViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToDoListViewViewModel.html">ToDoListViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UserViewModel.html">UserViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/SettingsViewViewModel.html">SettingsViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ThemeChangeViewModel.html">ThemeChangeViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CompletedTasksViewViewModel.html">CompletedTasksViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ToDoListItemViewViewModel.html">ToDoListItemViewViewModel</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/BaseViewModel.html">BaseViewModel</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Models.html">Models</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/Category.html">Category</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/Category/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListItem.html">ToDoListItem</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ToDoListItem/CodingKeys.html">– CodingKeys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/MenuItemType.html">MenuItemType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/User.html">User</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LoginResponse.html">LoginResponse</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enums</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/Field.html">Field</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/EditType.html">EditType</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums.html#/s:8ToDoList11ButtonStateO">ButtonState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ToastStyle.html">ToastStyle</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/Theme.html">Theme</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Request%20State.html">Request State</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/ErrorView.html">ErrorView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/LoadingView.html">LoadingView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/NoDataView.html">NoDataView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/RequestState.html">RequestState</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/RequestStateController.html">RequestStateController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../API%20Topics.html">API Topics</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/ApiService.html">ApiService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DataRequest.html">DataRequest</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DataResponse.html">DataResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DateFormatter.html">DateFormatter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ApiConstants.html">ApiConstants</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ApiError.html">ApiError</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ApiResponse.html">ApiResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../API%20Topics.html#/s:8ToDoList15LoggableServiceP">LoggableService</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/ApiErrorResponse.html">ApiErrorResponse</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Protocols/URLRequestConfigurable.html">URLRequestConfigurable</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/BodyParameterEncoding.html">BodyParameterEncoding</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Router.html">Router</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/UserRouter.html">UserRouter</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/TodoRouter.html">TodoRouter</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/Text.html">Text</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UserDefaults.html">UserDefaults</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UserDefaults.html#/s:So14NSUserDefaultsC8ToDoListE4Keys33_579D26AEBD9C0799955D8B8B3328F121LLO">– Keys</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Error.html">Error</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Utilities.html">Utilities</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/SwiftUI.html">SwiftUI</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SwiftUI/Color.html">– Color</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/SwiftUI/ShapeStyle.html">– ShapeStyle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Global%20Variables.html">Other Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Other%20Global%20Variables.html#/resourceBundle">resourceBundle</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Other%20Extensions.html">Other Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/DeveloperToolsSupport.html">DeveloperToolsSupport</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/DeveloperToolsSupport/ColorResource.html">– ColorResource</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIKit.UIColor.html">UIKit.UIColor</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>BaseViewModel</h1>
+              <div class="declaration">
+                <div class="language">
+                  
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">BaseViewModel</span> <span class="p">:</span> <span class="kt">ObservableObject</span></code></pre>
+
+                </div>
+              </div>
+            <p><code>BaseViewModel</code>, temel görünüm modelini temsil eder ve <code>ObservableObject</code> protokolünü uygular.</p>
+
+<p>Bu sınıf, genel durum yönetimini ve kullanıcı arayüzü ile etkileşimleri yönetir.
+Diğer tüm ViewModel sınıfları, <code>BaseViewModel</code> sınıfını genişleterek bu temel işlevsellikleri miras alır.</p>
+
+<p><code>BaseViewModel</code>, verilerin yüklenme durumunu, görünümlerin yeniden yüklenebilirliğini,
+alt sayfa (sheet) gösterim durumlarını ve kullanıcı arayüzündeki çeşitli mesaj ve görsel bilgilerini yönetir.</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC13isRefreshableSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isRefreshable" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC13isRefreshableSbvp">isRefreshable</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Yeniden yüklenebilirliği belirten bir bayrak.
+Kullanıcı arayüzünün tekrar yüklenip yüklenemeyeceğini kontrol eder.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">isRefreshable</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC11buttonStateSbvp"></a>
+                    <a name="//apple_ref/swift/Property/buttonState" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC11buttonStateSbvp">buttonState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Butonun etkinlik durumu.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">buttonState</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC12requestStateAA07RequestH0Ovp"></a>
+                    <a name="//apple_ref/swift/Property/requestState" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC12requestStateAA07RequestH0Ovp">requestState</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>İstek durumunu temsil eder.
+Verilerin yüklenme durumunu takip eder ve kullanıcıya geri bildirim sağlar.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">requestState</span><span class="p">:</span> <span class="kt"><a href="../Enums/RequestState.html">RequestState</a></span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC9showSheetSbvp"></a>
+                    <a name="//apple_ref/swift/Property/showSheet" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC9showSheetSbvp">showSheet</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Alt sayfayı (sheet) göstermek için kullanılan bayrak.
+Bir alt sayfa (sheet) göstermek için kullanılır.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">showSheet</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC16isSheetPresentedSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isSheetPresented" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC16isSheetPresentedSbvp">isSheetPresented</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Alt sayfanın (sheet) açık olup olmadığını belirten bayrak.
+Alt sayfanın (sheet) gösterilip gösterilmediğini takip eder.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@Published</span>
+<span class="k">var</span> <span class="nv">isSheetPresented</span><span class="p">:</span> <span class="kt">Bool</span> <span class="p">{</span> <span class="k">get</span> <span class="k">set</span> <span class="p">}</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC5imageSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/image" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC5imageSSSgvp">image</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Görüntü URL&#39;sini veya adını içeren opsiyonel değişken.
+Kullanılacak görselin URL&#39;sini veya adını saklar.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">image</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC5titleSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/title" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC5titleSSSgvp">title</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Başlık metnini içeren opsiyonel değişken.
+Kullanıcı arayüzünde gösterilecek başlık metnini saklar.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">title</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC8message1SSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/message1" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC8message1SSSgvp">message1</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>İlk mesaj metnini içeren opsiyonel değişken.
+Kullanıcı arayüzünde gösterilecek ilk mesaj metnini saklar.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">message1</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC8message2SSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/message2" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC8message2SSSgvp">message2</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>İkinci mesaj metnini içeren opsiyonel değişken.
+Kullanıcı arayüzünde gösterilecek ikinci mesaj metnini saklar.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">message2</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC10buttonTextSSSgvp"></a>
+                    <a name="//apple_ref/swift/Property/buttonText" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC10buttonTextSSSgvp">buttonText</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Buton üzerindeki metni içeren opsiyonel değişken.
+Buton üzerinde gösterilecek metni saklar.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">buttonText</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC11buttonColor7SwiftUI0H0VSgvp"></a>
+                    <a name="//apple_ref/swift/Property/buttonColor" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC11buttonColor7SwiftUI0H0VSgvp">buttonColor</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Butonun rengini belirten opsiyonel değişken.
+Butonun rengini tanımlar.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">buttonColor</span><span class="p">:</span> <span class="kt">Color</span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC13buttonVisibleSbvp"></a>
+                    <a name="//apple_ref/swift/Property/buttonVisible" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC13buttonVisibleSbvp">buttonVisible</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Butonun görünür olup olmadığını belirten bayrak.
+Butonun kullanıcıya görünüp görünmediğini belirler.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">buttonVisible</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC6actionyycSgvp"></a>
+                    <a name="//apple_ref/swift/Property/action" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC6actionyycSgvp">action</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Butona tıklandığında çalışacak aksiyonu temsil eder.
+Butona tıklandığında yürütülecek olan işlemi tanımlar.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">action</span><span class="p">:</span> <span class="p">(()</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)?</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:8ToDoList13BaseViewModelC5retryyyF"></a>
+                    <a name="//apple_ref/swift/Method/retry()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:8ToDoList13BaseViewModelC5retryyyF">retry()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Tekrar deneme fonksiyonu.</p>
+
+<p>Bu metod, genellikle ağ istekleri başarısız olduğunda tekrar denemek için kullanılır.</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">retry</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2024 <a class="link" href="https://ahmettarikdemirci.io/" target="_blank" rel="external noopener">Ahmet Tarık Demirci</a>. All rights reserved. (Last updated: 2024-08-07)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external noopener">jazzy ♪♫ v0.15.1</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external noopener">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</html>

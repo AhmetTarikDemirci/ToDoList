@@ -1,0 +1,4 @@
+module Alamofire {
+header "Alamofire-Swift.h"
+export *
+}
