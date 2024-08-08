@@ -19,11 +19,11 @@ ToDoListApp, kullanıcıların yapılacaklar listelerini (to-do list) yönetmele
 ### Ekran Görüntüleri 
 
 <div style="display: flex; overflow-x: auto;">
-  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/1.png" alt="Giriş Ekranı" style="height: 300px; margin-right: 10px;">
-  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/2.png" alt="Kayıt Ekranı" style="height: 300px; margin-right: 10px;">
-  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/3.png" alt="Ana Ekran" style="height: 300px; margin-right: 10px;">
-  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/4.png" alt="Kategori Yönetimi" style="height: 300px; margin-right: 10px;">
-  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/5.png" alt="Görev Yönetimi" style="height: 300px; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/login.png" alt="Giriş Ekranı" style="height: 300px; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/register.png" alt="Kayıt Ekranı" style="height: 300px; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/todo.png" alt="Ana Ekran" style="height: 300px; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/donetodo.png" alt="Kategori Yönetimi" style="height: 300px; margin-right: 10px;">
+  <img src="https://ahmettarikdemirci.io/todolist/screen_shoots/settings.png" alt="Görev Yönetimi" style="height: 300px; margin-right: 10px;">
  
 </div>
 
